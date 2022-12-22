@@ -1,0 +1,23 @@
+	>> GIT local repository<<<
+git init
+git status
+git add .
+git commit -m "first commit"
+git status
+git log --> displays the history of git commit
+git checkout 'commitid' --> takes to that changes
+git switch - 
+--> switch back to previous state
+git diff --> check diiferences between files
+git branch --> on which branch you are
+git checkout -b internet --> swich to branch internet
+git switch branch_name
+git checkout branch_name
+git merge branch_name
+git branch -d branch_name  --> delete the branch ******you can not delete the branch you are on and you wouldn't want to delete the master branch********
+
+
+	>> Pushing ro remote repository <<
+create repository
+git config user.name 'Piyush'
+git config user.email 'Email'
